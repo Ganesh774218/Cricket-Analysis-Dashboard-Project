@@ -1,0 +1,55 @@
+There are blank values in City column 
+
+There are blank values in winner column means the result can be draw and no result also
+
+There are 0 values in win by runs and win by wickets and blank cells in player of the match means the result is NO result sp player og the match is blank 
+
+Blank rows column- City, umpire3, player-of-match, winner
+
+Date format 
+
+city = 310 
+winner= 120
+player of match =151
+umpire3=282
+
+
+
+
+
+
+Cleaned Season column
+
+City = 1996 blank columns   means in the venue there is city present which can be used in these blank cells
+
+city column done
+
+cleaned and change format of toss decision 
+cleaned and change format Dl applied
+
+winner column blank cell and player of match blank cell done 
+
+
+# Save cleaned dataset to a new CSV file
+data.to_csv("odi_match_cleaned.csv", index=False)
+
+
+
+All Done cleaned the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
